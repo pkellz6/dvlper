@@ -1,11 +1,11 @@
 html,body{
-	
+
 }
 body {
-	
+
 }
 .comingsoon-overlay{
-	background-image: url('../images/sample.jpg');
+	background-image: url('../images/slideshow/miami_skyline.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover !important;
@@ -22,7 +22,7 @@ body {
 }
 .comingsoon-overlay-pattern {
 	background-color: rgba(44,62,80 , 0.6 );
-	background-image: url('../images/pattern.png');
+	background-image: url('../images/slideshow/miami_skyline.png');
 	background-position: center;
 	background-repeat: repeat;
 	line-height: 1;
@@ -56,7 +56,7 @@ body {
 	font-size: 30px;
 	padding: 10px;
 	text-align: center;
-	margin: 0;	
+	margin: 0;
 	line-height: 1.1;
 }
 .comingsoon__countdown{
@@ -64,7 +64,7 @@ body {
 	margin-bottom: 20px;
 }
 .comingsoon__countdown-wrap{
-	
+
 }
 .comingsoon__countdown__item{
 	width: 25%;
@@ -74,7 +74,7 @@ body {
 .comingsoon__countdown__item__wrap{
 	height: 0px;
 	padding-bottom: 100%;
-	position: relative;	
+	position: relative;
 	width: 100%;
 }
 .clock-canvas {
@@ -84,9 +84,9 @@ body {
 	padding-bottom: 100%;
 }
 .label-canvas{
-	color: #fff;	
+	color: #fff;
 	font-size: 30px;
-	font-weight: 300;	
+	font-weight: 300;
 	transform:translate(0px, -50%);
 	-webkit-transform:translate(0px, -50%);
 	-moz-transform:translate(0px, -50%);

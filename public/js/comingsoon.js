@@ -14,19 +14,19 @@
 	                canvas_days: 'canvas-days'
 	            },
 	            seconds: {
-	                borderColor: '#7995D5',
+	                borderColor: '#1E1E24',
 	                borderWidth: '6'
 	            },
 	            minutes: {
-	                borderColor: '#ACC742',
+	                borderColor: '#1E1E24',
 	                borderWidth: '6'
 	            },
 	            hours: {
-	                borderColor: '#ECEFCB',
+	                borderColor: '#1E1E24',
 	                borderWidth: '6'
 	            },
 	            days: {
-	                borderColor: '#FF9900',
+	                borderColor: '#1E1E24',
 	                borderWidth: '6'
 	            }
 		    });

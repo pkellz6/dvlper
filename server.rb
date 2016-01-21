@@ -4,11 +4,11 @@ require 'sinatra'
 
 #Why/how do i add visuals to this page?
 
-# get '/' do			#get methods takes two argumetns string: website 
-# 	p "#{Time.now}"	#block of ruby code executed when 
+# get '/' do			#get methods takes two argumetns string: website
+# 	p "#{Time.now}"	#block of ruby code executed when
 # end
 
 get '/' do
-  send_file File.join(settings.public_folder, 'index.html')
+  send_file File.join(settings.public_folder, 'coming-soon.html')
 end
 
