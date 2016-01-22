@@ -1980,7 +1980,8 @@
 	padding-top:50px;
 }
 .section-index-2 .row-absolute-bg .column:first-child {
-	background-color:rgba(87,187,138,0.8);
+	background-color: #8D99AE;
+	opacity: 0.8;
 }
 .section-index-2 .box {
 	padding-top:90px;
@@ -2008,7 +2009,7 @@
 	color: #fff;
 }
 .section-index-2 .row-image-bg {
-	background-image: url(../images/home-parallax1.jpg);
+	background-image: url(../images/code.png);
 }
 .section-index-3 {
 	padding-top:90px;
@@ -2067,7 +2068,7 @@
 	color:#1E1E24;
 }
 .section-index-5 .row-image-bg {
-	background-image: url(../images/parallax-3.jpg);
+	background-image: url(../images/ocean.png);
 }
 .section-index-6 {
 	padding-top:90px;
@@ -2133,7 +2134,7 @@
 	color:#1E1E24;
 }
 .section-index-9 .row-image-bg {
-	background-image: url(../images/hand-notebook-pc-2980.jpg);
+	background-image: url(../images/happy.png);
 }
 .section-index-10 {
 	padding-top:90px;
@@ -2176,7 +2177,7 @@
 	color: #1E1E24;
 }
 .section-index-11 .row-image-bg {
-	background-image: url(../images/ipad.png);
+	background-image: url(../images/bridge.png);
 }
 
 /*--------------------------------------------------------------
