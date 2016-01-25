@@ -1,3 +1,8 @@
+#white_background {
+	background-color: #F7F7F7;
+}
+
+
 /*--------------------------------------------------------------
 1.0 - About Us
 --------------------------------------------------------------*/
@@ -2139,6 +2144,7 @@
 .section-index-10 {
 	padding-top:90px;
 	padding-bottom:90px;
+	background-color: #F7F7F7;
 }
 .section-index-10 {
 	padding-top:90px;
@@ -2148,7 +2154,7 @@
 	text-align: center;
 	letter-spacing: 5px;
 	margin-bottom: -15px;
-	color: #AD343E;
+	color: #F7F7F7;
 }
 .section-index-10 .separator {
 	width: 100px;
