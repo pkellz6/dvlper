@@ -3410,10 +3410,10 @@ object {
 .box-image-bg[data-parallax="1"] {
   background-attachment: fixed;
 }
-.row {
+/*.row {
   margin-left: -15px;
   margin-right: -15px;
-}
+}*/
 .row {
   position: relative;
 }
@@ -11780,7 +11780,7 @@ a[data-toggle="tooltip"]:hover {
 .separator i,
 .separator h4 {
   display: table-cell;
-  white-space: nowrap;
+  white-space: pre-line;
 }
 .separator.separator-align-center h4 {
   padding: 0 0.8em;
@@ -11824,7 +11824,7 @@ a[data-toggle="tooltip"]:hover {
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 50%;
+  width: 25%;
 }
 .separator .separator-line {
   height: 1px;
