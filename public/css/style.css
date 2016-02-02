@@ -15295,7 +15295,7 @@ a
   }
 }
 .heading-container {
-  background: url(../images/heading-bg.png) no-repeat scroll center top #006BCD;
+  background: #006BCD;
   overflow: hidden;
   position: relative;
 }
