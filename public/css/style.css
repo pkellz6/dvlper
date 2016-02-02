@@ -16751,6 +16751,7 @@ a.go-to-top:hover a.go-to-top:focus.on:hover {
   padding: 0;
   outline: 0 none;
   vertical-align: baseline;
+  height: 345px;
 }
 .portfolio.portfolio-style-one .portfolio-title {
   font-size: 1em;
