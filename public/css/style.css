@@ -7825,7 +7825,7 @@ input[type="button"].btn-block {
 }
 .navbar-brand img {
   max-height: 98px;
-  padding: 10px 0;
+  padding: 25px 0;
 }
 @media (min-width: 992px) {
   .header-type-default .navbar-brand img {
@@ -7853,7 +7853,7 @@ input[type="button"].btn-block {
   }
 }
 .navbar-fixed-top .navbar-brand img {
-  padding: 5px 0;
+  padding: 15px 0;
 }
 .navbar-fixed-top .navbar-brand .logo {
   display: none;
