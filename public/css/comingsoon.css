@@ -5,7 +5,7 @@ body {
 
 }
 .comingsoon-overlay{
-	background-image: url('../images/slideshow/miami_skyline.png');
+	background-image: url('../images/miami_skyline.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover !important;

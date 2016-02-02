@@ -7791,7 +7791,7 @@ input[type="button"].btn-block {
 .navbar-default .navbar-nav .current-menu-ancestor > a:hover,
 .navbar-default .navbar-nav .current-menu-parent > a:hover,
 .navbar-default .navbar-nav > .active > a:hover {
-  color: #006BCD;
+  color: white;
   background-color: transparent;
 }
 .navbar-default .navbar-collapse {
@@ -8170,7 +8170,7 @@ input[type="button"].btn-block {
     margin: 0;
     position: absolute;
     top: 25px;
-    color: #006BCD;
+    color: white;
     left: 0;
     width: 100%;
     height: 30px;
@@ -8310,7 +8310,7 @@ input[type="button"].btn-block {
 .navbar-fixed-top .navbar-nav.primary-nav > .current-menu-ancestor > a:hover,
 .navbar-fixed-top .navbar-nav.primary-nav > .active > a,
 .navbar-fixed-top .navbar-nav.primary-nav > .open > a {
-  color: #006BCD;
+  color: black;
 }
 .navbar-fixed-top .navbar-nav.primary-nav > .active > a:hover,
 .navbar-fixed-top .navbar-nav.primary-nav > .open > a:hover,
