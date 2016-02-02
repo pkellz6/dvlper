@@ -3511,7 +3511,7 @@ object {
 }
 @media (max-width: 991px) and (min-width: 769px) {
   .container {
-    width: 97%;
+    width: 100%;
   }
   .main-wrap {
     float: left;
@@ -14163,16 +14163,34 @@ a[data-toggle="tooltip"]:hover {
   position: relative;
 }
 .team-member .member-avatar.bg-1 {
-  background-image:url(../images/team/member-1.png)
+  background-image:url(../images/team/1Sean.png)
 }
 .team-member .member-avatar.bg-2 {
-  background-image:url(../images/team/member-2.png)
+  background-image:url(../images/team/2Frank.jpg)
 }
 .team-member .member-avatar.bg-3 {
-  background-image:url(../images/team/member-3.png)
+  background-image:url(../images/team/3Chris.png)
 }
 .team-member .member-avatar.bg-4 {
+  background-image:url(../images/team/4LuisLam.png)
+}
+.team-member .member-avatar.bg-5 {
+  background-image:url(../images/team/5Volney.png)
+}
+.team-member .member-avatar.bg-6 {
+  background-image:url(../images/team/6Hector.png)
+}
+.team-member .member-avatar.bg-7 {
+  background-image:url(../images/team/7Victor.png)
+}
+.team-member .member-avatar.bg-8 {
+  background-image:url(../images/team/8LuisApercedo.png)
+}
+.team-member .member-avatar.bg-9 {
   background-image:url(../images/team/member-4.png)
+}
+.team-member .member-avatar.bg-10 {
+  background-image:url(../images/team/10Henry.jpg)
 }
 .team-member .member-avatar img {
   width: 100%;
@@ -14210,6 +14228,7 @@ a[data-toggle="tooltip"]:hover {
   -webkit-transition: all 0.9s;
   -o-transition: all 0.9s;
   transition: all 0.9s;
+  height: 250px;
 }
 @media (max-width: 900px) {
   .team-member.team-member-right .member-avatar {
@@ -14230,21 +14249,22 @@ a[data-toggle="tooltip"]:hover {
 .team-member.team-member-right .member-info {
   height: 100%;
   display: table-cell;
-  vertical-align: top;
+  vertical-align: middle;
   width: 60%;
 }
 @media (max-width: 900px) {
   .team-member.team-member-right .member-info {
     display: block;
     width: 100%;
+    height: 208px;
   }
 }
 .team-member.team-member-right .member-info-wrap {
   padding: 15px;
 }
 .team-member.team-member-right .member-meta span a {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   display: inline-block;
   border: 1px solid;
   font-size: 15px;
