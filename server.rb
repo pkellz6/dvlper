@@ -12,3 +12,9 @@ get '/' do
   send_file File.join(settings.public_folder, 'coming-soon.html')
 end
 
+get '/:file_name' do |fname|
+  send_file(
+    File.join(settings.public_folder, "#{fname}.html")
+  )
+end
+
