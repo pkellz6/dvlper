@@ -20759,7 +20759,8 @@ img.grayscale:hover {
 }
 
 .elTextWrapper {
-  height: calc(100% - 383.8748px);
+  height: 100%;
+  margin: 100px 0;
   display: flex;
   -webkit-box-orient: vertical;
   flex-direction: column;
@@ -20782,7 +20783,7 @@ img.grayscale:hover {
 .elButtons {
   margin: 30px;
 }
-.elButtons a .elButton {
+.elButtons a.elButton {
   font-weight: 700;
   border: 2px solid #E03C31;
   text-decoration: none;
@@ -20793,7 +20794,7 @@ img.grayscale:hover {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.elButtons a .elButton:hover {
+.elButtons a.elButton:hover {
   background-color: #E03C31;
   color: white;
   -webkit-transition: all 0.2s ease-in-out;
