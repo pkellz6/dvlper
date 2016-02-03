@@ -57,6 +57,7 @@ Description: Creative Responsive Wordpress Theme
  * 34.0 - Utility classes
  * 35.0 - Responsive: Utility classes
  * 36.0 - Custom style
+ * 37.0 - 404
  */
 @font-face {
   font-family: "Flaticon";
@@ -20734,4 +20735,67 @@ img.grayscale:hover {
 }
 .empty-space-90 {
   height: 90px;
+}
+
+.text-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.elTextWrapper {
+  height: calc(100vh - 383.8748px);
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.elTitle {
+  font-size: 6em;
+  color: #E03C31;
+}
+
+.elSubtitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1FA9D6;
+  text-align: center;
+}
+
+.elButtons {
+  margin: 30px;
+}
+.elButtons a .elButton {
+  font-weight: 700;
+  border: 2px solid #E03C31;
+  text-decoration: none;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #E03C31;
+  border-radius: 26px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.elButtons a .elButton:hover {
+  background-color: #E03C31;
+  color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }

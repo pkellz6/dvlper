@@ -8,6 +8,12 @@ require 'sinatra'
 # 	p "#{Time.now}"	#block of ruby code executed when
 # end
 
+not_found do
+  send_file(
+  File.join(settings.public_folder, "404.html")
+)
+end
+
 get '/' do
   send_file File.join(settings.public_folder, 'coming-soon.html')
 end
