@@ -20759,7 +20759,7 @@ img.grayscale:hover {
 }
 
 .elTextWrapper {
-  height: calc(100vh - 383.8748px);
+  height: calc(100% - 383.8748px);
   display: flex;
   -webkit-box-orient: vertical;
   flex-direction: column;
