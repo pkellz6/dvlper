@@ -15,7 +15,7 @@ not_found do
 end
 
 get '/' do
-  send_file File.join(settings.public_folder, 'coming-soon.html')
+  send_file File.join(settings.public_folder, 'index.html')
 end
 
 get '/:file_name' do |fname|
