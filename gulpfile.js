@@ -1,12 +1,12 @@
 'use strict'
 
-var   gulp = require('gulp'),
-    concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
-    rename = require('gulp-rename'),
-      maps = require('gulp-sourcemaps'),
- minifyCss = require('gulp-minify-css'),
-        es = require('event-stream');
+var gulp = require('gulp'),
+  concat = require('gulp-concat'),
+  uglify = require('gulp-uglify'),
+  rename = require('gulp-rename'),
+    maps = require('gulp-sourcemaps'),
+minifyCss = require('gulp-minify-css'),
+      es = require('event-stream');
 
 
 gulp.task('concatScripts',function(){
@@ -62,4 +62,4 @@ gulp.task('concatCss', function(){
     .pipe(gulp.dest('public/css/'))
 });
 
-gulp.task('build', ['concatScripts', 'concatCss'])
+gulp.task('default', ['concatScripts', 'concatCss'])
