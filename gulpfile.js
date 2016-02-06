@@ -63,6 +63,8 @@ gulp.task('concatCss', function(){
     .pipe(gulp.dest('public/css/'))
 });
 
-
-
 gulp.task('default', ['concatScripts', 'concatCss'])
+
+gulp.task('watch', function() {
+    gulp.watch('public/css/*.css', ['concatCss'])
+});
