@@ -3414,10 +3414,6 @@ object {
 .box-image-bg[data-parallax="1"] {
   background-attachment: fixed;
 }
-/*.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}*/
 .row {
   position: relative;
 }
@@ -7757,9 +7753,11 @@ input[type="button"].btn-block {
   background-color: #000000;
   border-color: #e6e6e6;
 }
+.header-type-default .navbar-default {
+  height: 85px;
+}
 @media (min-width: 992px) {
   .header-type-default .navbar-default {
-    height: 99px;
     -webkit-transition: height 0s;
     -o-transition: height 0s;
     transition: height 0s;
@@ -7828,7 +7826,7 @@ input[type="button"].btn-block {
   }
 }
 .navbar-brand img {
-  max-height: 98px;
+  height: 90px;
   padding: 25px 0;
 }
 @media (min-width: 992px) {
@@ -7841,7 +7839,7 @@ input[type="button"].btn-block {
 }
 @media (min-width: 992px) {
   .header-type-default .animate-children .navbar-brand img {
-    max-height: 79px;
+    max-height: 75px;
   }
 }
 .navbar-brand .logo-fixed {
@@ -7881,6 +7879,7 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+  /*height: 85px;*/
 }
 .navbar-default .primary-navbar-collapse {
   float: right;
@@ -7947,10 +7946,10 @@ input[type="button"].btn-block {
   position: relative;
 }
 .primary-nav {
-  font-size: 14.5px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: gotham_boldregular, Arial, Helvetica, sans-serif;
 }
 .primary-nav .navicon {
   margin-right: 0.5517241379310345rem;
@@ -8355,12 +8354,10 @@ input[type="button"].btn-block {
   .header-type-default .navbar-default .primary-navbar-collapse,
   .header-type-default .navbar-default .primary-nav {
     position: static;
-    height: 100% !important;
   }
   .header-type-default .navbar-default .navbar-wrap,
   .header-type-default .navbar-default .primary-nav > li {
     position: relative;
-    height: 100% !important;
   }
   .header-type-default li.navbar-minicart,
   .header-type-default li.navbar-search {
@@ -12128,8 +12125,12 @@ a[data-toggle="tooltip"]:hover {
 .iconbox .iconbox-icon.icon-circle i:before {
   line-height: 2em !important;
 }
+.iconbox .iconbox-icon i {
+  background-color:#006BCD;
+  color:white;
+}
 .iconbox .iconbox-icon.icon-color-default i {
-  color: #8c8c8c;
+  /*color: #8c8c8c;*/
   border: none;
   vertical-align: middle;
   width: 2em;
@@ -14996,7 +14997,7 @@ a
 }
 @media (max-width: 991px) {
   .header-container {
-    height: auto !important;
+    height: 85px !important;
   }
 }
 .header-type-classic {
@@ -15273,11 +15274,17 @@ a
   }
 }
 #bgvid {
-  display: none;
+  margin-top: -25px;
 }
 .elHeader{
-  color: black;
-  font-size: 2.103448em;
+  font-family: helvetica;
+  font-weight: 100;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-size: 1.903448em;
+  color: white;
+  padding: 0%;
+  line-height: 75px;
 }
 @media only screen and (min-width: 992px) {
   .has-top-margin {
@@ -15287,18 +15294,15 @@ a
     margin-top: 80px;
   }
   #bgvid {
-    display: initial;
     background: black;
-    margin-top: -25px;
-  }
-  .elHeader{
-    color: slategray;
+    width: auto;
   }
 }
 .heading-container {
   background: #006BCD;
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 .heading-container .heading-hero-background {
   background: url(../images/miami_skyline.png) no-repeat scroll 50% bottom;
@@ -15326,7 +15330,7 @@ a
 }
 .heading-container.heading-hero .heading-hero-wrap {
   position: absolute;
-  top: 30%;
+  top: 14%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
@@ -20799,4 +20803,15 @@ img.grayscale:hover {
   color: white;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.functionElement h1 {
+  font-family: gotham_boldregular;
+  font-weight: 500;
+}
+.functionElement h3 {
+  font-family: calluna-sans,sans-sarif;
+  font-weight: 200;
+}
+.functionElement .sub {
+  font-size: 22px;
 }

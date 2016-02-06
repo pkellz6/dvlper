@@ -6,7 +6,8 @@ var gulp = require('gulp'),
   rename = require('gulp-rename'),
     maps = require('gulp-sourcemaps'),
 minifyCss = require('gulp-minify-css'),
-      es = require('event-stream');
+      es = require('event-stream'),
+      watch = require('gulp-watch');
 
 
 gulp.task('concatScripts',function(){
@@ -61,5 +62,7 @@ gulp.task('concatCss', function(){
     .pipe(maps.write('./'))
     .pipe(gulp.dest('public/css/'))
 });
+
+
 
 gulp.task('default', ['concatScripts', 'concatCss'])
