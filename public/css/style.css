@@ -15274,7 +15274,14 @@ a
   }
 }
 #bgvid {
-  margin-top: -25px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
 }
 .elHeader{
   font-family: helvetica;
@@ -15295,7 +15302,6 @@ a
   }
   #bgvid {
     background: black;
-    width: auto;
   }
 }
 .heading-container {
@@ -20805,11 +20811,11 @@ img.grayscale:hover {
   transition: all 0.2s ease-in-out;
 }
 .functionElement h1 {
-  font-family: gotham_boldregular;
+  font-family: gotham_boldregular, Arial,helvetica, sans-serif;
   font-weight: 500;
 }
 .functionElement h3 {
-  font-family: calluna-sans,sans-sarif;
+  font-family: calluna-sans,sans-serif;
   font-weight: 200;
 }
 .functionElement .sub {
