@@ -15532,6 +15532,9 @@ a
   .heading-container.heading-hero .heading-hero-wrap .hero-icon .svg-text {
     font-size: 0.8em;
   }
+  .elHeader{
+    font-size: 1.354em;
+  }
 }
 .heading-container .heading-standar {
   overflow: hidden;
