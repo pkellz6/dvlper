@@ -3050,6 +3050,9 @@ p {
   .lead {
     font-size: 21.75px;
   }
+  .shortDesc{
+    text-align: left;
+  }
 }
 .heading-typed .nth-typed {
   display: inline-block;
@@ -13275,10 +13278,10 @@ a[data-toggle="tooltip"]:hover {
 .iconbox .iconbox-content .el-heading {
   font-size: 1.4em;
 }
-.iconbox .iconbox-content p {
+/*.iconbox .iconbox-content p {
   margin: 0;
   padding: 0;
-}
+}*/
 .iconbox .iconbox-content a {
   margin-top: 10px;
   display: inline-block;
@@ -15879,6 +15882,7 @@ a
   background: #222222;
   color: #919191;
   font-size: 13px;
+  font-family: sans-serif;
 }
 .footer-widget .footer-widget-wrap {
   padding: 70px 0 50px;
@@ -20824,3 +20828,62 @@ img.grayscale:hover {
 .functionElement .sub {
   font-size: 22px;
 }
+.iconbox .shortDesc {
+  font-family: calluna-sans, sans-serif;
+  font-size: 1.3em;
+  width: 80%;
+  margin: 0 auto;
+}
+/*.box {
+  margin: 50px auto;
+  width:400px;
+}
+input[type="email"] {
+  appearance: none;
+  width: 380px;
+  height: 60px;
+  font-size: 1em;
+  background:transparent;
+  border:none;
+  border-bottom:solid 4px #e6e8eb;
+  text-align:center;
+  transition: border-color 0.6s ease;
+}
+
+::-webkit-input-placeholder {
+   color: #464c4c;
+   transition: color 0.3s ease;
+}
+
+:focus::-webkit-input-placeholder {
+   color: transparent;
+   transition: color 0.3s ease;
+}
+input[type="email"]:focus {
+   outline:none;
+   border:none;
+  border-bottom:solid 4px #00AEEF;
+  transition: border-color 1s ease;
+}
+input[type="submit"] {
+  appearance: none;
+  width:380px;
+  height:50px;
+  font-size:1.05em;
+  background:transparent;
+  color: #e6e8eb;
+  border:none;
+  text-align:center;
+  letter-spacing:0.15em;
+  text-transform:uppercase;
+  transition: color 0.5s ease;
+  outline:none;
+   border:none;
+}
+
+input[type="submit"]:hover {
+  color: #464c4c;
+  cursor:pointer;
+  transition: color 0.5s ease;
+}
+*/

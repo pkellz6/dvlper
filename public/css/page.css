@@ -1982,7 +1982,7 @@
 	padding-top:50px;
 }
 .section-index-2 .row-absolute-bg .column:first-child {
-	background-color: #8D99AE;
+	background-color: rgba(91,89,89,0.93);
 	opacity: 0.8;
 }
 .section-index-2 .box {
@@ -1990,8 +1990,15 @@
 	padding-bottom:90px;
 	padding-right:50px;
 }
+.iconbox .iconbox-icon.icon-circle i:before {
+  color:#fff;
+}
+.section-index-2 .box h2 , h3 {
+  color: #000;
+  font-family: gotham_boldregular, Arial,helvetica, sans-serif;
+}
 .section-index-2 .box h2 {
-	color: #1E1E24;
+  color:#fff;
 }
 .section-index-2 .separator {
 	width: 100px;
@@ -2168,8 +2175,15 @@
 	padding-bottom:90px;
 }
 .section-index-11 h2 {
-	color: #1E1E24;
-	text-align: center;
+  color: #000;
+  text-align: center;
+  border-color: #000;
+  background: rgba(249,249,249,0.7);
+  width: 36%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
 }
 .section-index-11 .container > .row-custom-padding {
 	padding-bottom:20px;
@@ -2253,4 +2267,23 @@
 .section-tooltip-title {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.commFont{
+  font-family: calluna-sans, sans-serif;
+  font-weight: 500;
+}
+.wallPic {
+  background-image: url(http://i.imgur.com/OS4BbPl.jpg);
+  background-repeat: repeat;
+}
+.contactButton {
+  color: #000;
+  text-align: center;
+  border-color: #000;
+  background: rgba(249,249,249,0.7) !important;
+  margin: 0 auto;
+  text-align: center;
+}
+#contacting {
+  font-family: sans-serif;
 }
