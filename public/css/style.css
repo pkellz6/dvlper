@@ -7801,6 +7801,11 @@ input[type="button"].btn-block {
 }
 .navbar-default .navbar-collapse {
   border-color: #e6e6e6;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: -16px;
+  background: black;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover {
@@ -7947,6 +7952,7 @@ input[type="button"].btn-block {
 }
 .navbar-wrap {
   position: relative;
+  z-index: 99999;
 }
 .primary-nav {
   font-size: 16px;
