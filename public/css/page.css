@@ -2291,3 +2291,7 @@
   z-index: 100;
   text-align: center;
 }
+.navStyle {
+  background-color: black;
+  opacity: .5;
+}
