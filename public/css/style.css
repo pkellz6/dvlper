@@ -133,7 +133,7 @@ Description: Creative Responsive Wordpress Theme
 }
 
 html {
-  font-family: oswald;
+  font-family: proxima-nova;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -361,7 +361,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 14.5px;
   line-height: 1.6;
   color: #666666;
@@ -2911,7 +2911,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   color: #333;
@@ -2992,42 +2992,42 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 3.103448275862069em;
   font-style: normal;
   font-weight: 600;
 }
 h2,
 .h2 {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 2.3448275862068964em;
   font-style: normal;
   font-weight: 600;
 }
 h3,
 .h3 {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 1.6551724137931034em;
   font-style: normal;
   font-weight: 600;
 }
 h4,
 .h4 {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 1.3793103448275863em;
   font-style: normal;
   font-weight: 100;
 }
 h5,
 .h5 {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 1.0344827586206897em;
   font-style: normal;
   font-weight: 600;
 }
 h6,
 .h6 {
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 14.5px;
   font-style: normal;
   font-weight: 600;
@@ -8087,7 +8087,7 @@ input[type="button"].btn-block {
   .primary-nav .dropdown-menu li .megamenu-title {
     font-size: 14.5px;
     font-weight: 400;
-    font-family: "oswald", Helvetica, Arial, sans-serif;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0.6896551724137931em 1.0344827586206897em 0.6896551724137931em 1.7241379310344827em;
     position: relative;
@@ -11794,6 +11794,8 @@ a[data-toggle="tooltip"]:hover {
 }
 .separator.separator-align-center h4 {
   padding: 0 0.8em;
+  text-align: center;
+  font-weight: 600;
 }
 .separator.separator-align-center i {
   padding: 0 5px;
@@ -13636,12 +13638,33 @@ a[data-toggle="tooltip"]:hover {
 }
 .timeline .timeline-content {
   border: 1px solid #e5e5e5;
-  border-bottom-width: 3px;
+  border-right-width: 5px;
+  border-bottom-width: 4px;
   float: left;
   position: relative;
-  width: 100%;
-  background: white;
+  background: #fff;
   padding: 15px;
+}
+.timeline .timeline-content-left {
+  border: 1px solid #e5e5e5;
+  border-right-width: 5px;
+  border-bottom-width: 4px;
+  float: left;
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  width: 80%;
+}
+.timeline .timeline-content-right {
+  border: 1px solid #e5e5e5;
+  border-left-width: 5px;
+  border-bottom-width: 4px;
+  float: left;
+  position: relative;
+  background: #fff;
+  padding: 15px;
+  width: 80%;
+}
 }
 .timeline .timeline-content > h4 {
   margin-top: 0;
@@ -15962,7 +15985,7 @@ a
   color: #e5e5e5;
   font-size: 14.5px;
   line-height: 1.6;
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 }
 .footer-widget .posts-thumbnail-content h4 a:hover {
   color: #006BCD;
@@ -16005,7 +16028,7 @@ a
 .footer-newsletter-wrap .footer-newsletter-heading {
   color: rgba(255, 255, 255, 0.36);
   font-weight: 400;
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 @media (max-width: 767px) {
@@ -18954,7 +18977,7 @@ li.comment {
 }
 .comment-reply-title a {
   color: inherit;
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 }
 #commentform {
   margin-bottom: 0;
@@ -19451,7 +19474,7 @@ p.comment-form-url {
   background-color: #e8e8e8;
   border: none !important;
   text-align: center;
-  font-family: "oswald", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-weight: 600;
   color: #333333;
 }
@@ -20839,6 +20862,12 @@ img.grayscale:hover {
   font-size: 1.3em;
   width: 80%;
   margin: 0 auto;
+}
+.letters {
+  color: #000000;
+}
+.letters p {
+  font-size: 16px;
 }
 /*.box {
   margin: 50px auto;
