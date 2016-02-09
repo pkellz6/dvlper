@@ -2287,3 +2287,7 @@
 #contacting {
   font-family: sans-serif;
 }
+#appear {
+  z-index: 100;
+  text-align: center;
+}
