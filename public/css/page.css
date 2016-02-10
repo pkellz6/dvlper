@@ -2293,5 +2293,17 @@
 }
 .navStyle {
   background-color: black;
-  opacity: .5;
+}
+.negative-margin {
+  margin-top: -5px;
+}
+.navbar-height{
+  height: 85px;
+}
+.navbar-dropdown {
+  text-align: center;
+  background-color: black;
+}
+.heading-position {
+  position: inherit;
 }
